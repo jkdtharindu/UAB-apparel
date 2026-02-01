@@ -1,0 +1,80 @@
+/* Modern, clean style for UAB Apparels */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #004d40;
+  padding: 16px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ffd600;
+}
+
+header {
+  background: #fff;
+  padding: 40px 0 24px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+header img {
+  margin-bottom: 18px;
+}
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  color: #004d40;
+}
+header p {
+  margin: 0;
+  color: #555;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #004d40;
+  color: #fff;
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+footer a {
+  color: #ffd600;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: text-decoration 0.2s;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  nav a {
+    font-size: 1em;
+    margin: 0 8px;
+  }
+  footer {
+    font-size: 1em;
+    padding: 12px 0;
+  }
+}

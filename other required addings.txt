@@ -1,0 +1,11 @@
+Suggestions to add by yourself for a more complete website:
+
+About Us, Products, and Contact pages (currently only links exist)
+A favicon for branding
+Responsive images and accessibility improvements (alt text, ARIA labels)
+Product gallery or catalog
+Contact form
+Testimonials or client logos
+Google Maps/location
+SEO meta tags and descriptions
+Social media icons/logos instead of text links
