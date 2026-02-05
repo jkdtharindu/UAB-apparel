@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>UAB Apparels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="UAB Apparels - Your trusted specific apparel manufacturing partner. High quality production for your brand.">
+  <title>UAB Apparels | Home</title>
+  <!-- Favicon (placeholder) -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <!-- Default style -->
   <link rel="stylesheet" href="style.css">
-  <!-- Modern style (uncomment to use) -->
-  <!-- <link rel="stylesheet" href="modern-style.css"> -->
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="products.html">Products</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <header>
-    <img src="images/UAB%20apparel%20LOGO.png" alt="UAB Apparels Logo" style="max-width: 200px; height: auto; display: block; margin: 0 auto 20px;">
-    <h1>Welcome to UAB Apparels</h1>
-    <p>Your trusted apparel manufacturing partner.</p>
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="images/new-logo.png.png" alt="UAB Apparels Company Logo" class="brand-logo">
+      <span class="brand-name">UAB Apparels</span>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle Navigation"><i class="fas fa-bars"></i></button>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <footer style="text-align:center; margin-top:40px;">
-    <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
-    <a href="https://wa.me/yourwhatsappphonenumber" target="_blank">WhatsApp</a>
-  </footer>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to UAB Apparels</h1>
+        <p>Your trusted apparel manufacturing partner.</p>
+        <a href="contact.html" class="cta-button">Get a Quote</a>
+      </div>
+      <div class="hero-image">
+        <!-- Placeholder for a hero image -->
+        <img src="https://via.placeholder.com/600x400?text=Apparel+Manufacturing" alt="Manufacturing Factory">
+      </div>
+    </section>
+
+    <main>
+      <section class="intro" style="text-align: center; padding: 20px;">
+        <h2>Quality You Can Trust</h2>
+        <p>We specialize in delivering high-quality apparel solutions for brands worldwide.</p>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials" aria-labelledby="testimonials-heading">
+        <h2 id="testimonials-heading">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>"The quality of manufacturing is outstanding. UAB Apparels delivers on time, every time."</p>
+            <cite>- Upali Wijesundara, Managing Director</cite>
+          </div>
+          <div class="testimonial-card">
+            <p>"Professional service and great communication. Highly recommended for bulk orders."</p>
+            <cite>- Amandi Keshari, Fashion Designer</cite>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>Connect with us:</p>
+      <div class="social-links">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Visit us on Facebook"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/yourwhatsappphonenumber" target="_blank" aria-label="Chat with us on WhatsApp"><i
+            class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="Visit us on Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Visit us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>&copy; 2024 UAB Apparels. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
